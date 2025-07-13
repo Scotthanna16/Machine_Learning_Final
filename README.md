@@ -1,4 +1,2 @@
 # Machine_Learning_Final
-This is my machine learning final project. In short I use the Viterbi algorithm to see if the score of a golfer can be predicted by the mood of the golfer throughout the round.
-Also, if you are an employer there are a few repositories which are not open to the public at request of my professors, 
-I can grant access if requested.
+This is my machine learning final project. I loved this project because it allowed me to combine two things I love, math and golf. My goal was to predict what a D1 college golfer would shoot in a round given there mood after each hole. To do this I used Hidden Markov Models and tracked the moods of my teammates. I then used the Viterbi algorithm to find the most likely chain. Overall, I would say this project was a success. I achieved very high accuracy on overall score. My hole-to-hole accuracy wasn't as good, roughly 67%, then I used Laplace smoothing and achieved 70%.
